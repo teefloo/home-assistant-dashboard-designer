@@ -1,0 +1,40 @@
+# SQUELETTE NON FONCTIONNEL.
+# Remplacer uniquement avec des identifiants vérifiés.
+title: Maison
+views:
+  - title: Accueil
+    path: accueil
+    type: sections
+    badges:
+      - type: entity
+        entity: REPLACE_ME_WEATHER_ENTITY
+      - type: entity
+        entity: REPLACE_ME_ALARM_ENTITY
+    sections:
+      - type: grid
+        title: Alertes
+        cards:
+          - type: conditional
+            conditions:
+              - entity: REPLACE_ME_ALERT_ENTITY
+                state_not: "off"
+            card:
+              type: tile
+              entity: REPLACE_ME_ALERT_ENTITY
+
+      - type: grid
+        title: Actions rapides
+        cards:
+          - type: tile
+            entity: REPLACE_ME_NIGHT_SCRIPT
+            name: Mode nuit
+          - type: tile
+            entity: REPLACE_ME_ALL_OFF_SCRIPT
+            name: Tout éteindre
+
+      - type: grid
+        title: Pièces
+        cards:
+          - type: tile
+            entity: REPLACE_ME_ROOM_MAIN_ENTITY
+            name: REPLACE_ME_ROOM_NAME

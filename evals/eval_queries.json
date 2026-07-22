@@ -1,0 +1,22 @@
+[
+  {"query":"Crée-moi un dashboard Home Assistant propre pour téléphone et tablette avec les lumières, volets et chauffage de chaque pièce.","should_trigger":true},
+  {"query":"Audite mon YAML Lovelace, il est lent et card-mod casse après les mises à jour.","should_trigger":true},
+  {"query":"Je veux migrer ma vue masonry vers Sections sans perdre mes cartes Bubble.","should_trigger":true},
+  {"query":"Organise mes entités Home Assistant et génère une page d'accueil avec alertes et actions rapides.","should_trigger":true},
+  {"query":"Construis une interface murale Home Assistant pour une tablette dans la cuisine.","should_trigger":true},
+  {"query":"Quels plugins HACS garder entre Mushroom, Bubble, ApexCharts et Auto-Entities pour mon dashboard ?","should_trigger":true},
+  {"query":"Refactorise mes cartes répétées avec Streamline Card et donne-moi les fichiers YAML.","should_trigger":true},
+  {"query":"Mon dashboard domotique affiche trop de capteurs et les boutons sont trop petits sur mobile.","should_trigger":true},
+  {"query":"Fais un audit accessibilité et performance de mes vues Lovelace.","should_trigger":true},
+  {"query":"Je veux une vue énergie avancée dans Home Assistant avec graphiques multi-séries.","should_trigger":true},
+  {"query":"Écris une automation Home Assistant qui éteint les lumières à minuit.","should_trigger":false},
+  {"query":"Pourquoi mon capteur Zigbee devient unavailable ?","should_trigger":false},
+  {"query":"Installe Home Assistant OS sur un Raspberry Pi.","should_trigger":false},
+  {"query":"Crée un blueprint d'automation pour détecter une fuite.","should_trigger":false},
+  {"query":"Comment connecter mon thermostat Tuya à Home Assistant ?","should_trigger":false},
+  {"query":"Répare mon broker Mosquitto, les clients ne se connectent plus.","should_trigger":false},
+  {"query":"Écris un template sensor qui calcule le prix de l'électricité.","should_trigger":false},
+  {"query":"Explique la différence entre Zigbee et Z-Wave.","should_trigger":false},
+  {"query":"Mets à jour mon intégration custom Python pour Home Assistant 2026.","should_trigger":false},
+  {"query":"Crée une carte graphique en React pour un site web, pas pour Home Assistant.","should_trigger":false}
+]
